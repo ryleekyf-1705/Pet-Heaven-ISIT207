@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "name": "John Doe",
+            "username": "john.doe",
+            "password": "pass123"
+        },
+        {
+            "name": "Jane Smith",
+            "username": "jane.smith",
+            "password": "pass123"
+        },
+        {
+            "name": "Alice Johnson",
+            "username": "alice.johnson",
+            "password": "pass123"
+        },
+        {
+            "name": "Bob Brown",
+            "username": "bob.brown",
+            "password": "pass123"
+        }
+    ]
+}

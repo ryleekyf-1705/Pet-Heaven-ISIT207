@@ -1,0 +1,117 @@
+/* Add to home.css */
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+    /* Adjust padding as needed */
+}
+
+.text-content {
+    flex: 1;
+    /* This will allow the text to take up half of the .info-section width */
+    padding-right: 5%;
+    /* Add some space between the text and the image */
+}
+
+.image-content {
+    flex: 1;
+    /* This will allow the image to take up the other half */
+    padding-left: 5%;
+    /* Add some space between the image and the text */
+}
+
+.image-content img {
+    width: 100%;
+    /* Make the image responsive, it will take up 100% of the .image-content */
+    height: auto;
+    /* Keep the image's aspect ratio */
+    max-width: 600px;
+    /* You can adjust this to set a max width for the image */
+    border-radius: 20px;
+    /* Adjust the border-radius to match your design */
+    margin: 10px;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .info-section {
+        flex-direction: column;
+    }
+
+    .text-content,
+    .image-content {
+        padding: 0;
+        flex: none;
+        max-width: 100%;
+    }
+
+    .image-content img {
+        max-width: 100%;
+        /* Ensure image is not larger than the container on smaller screens */
+    }
+}
+
+/* Style for the accordion button in both collapsed and expanded states */
+.accordion-button {
+    color: white;
+    /* Text color for the accordion header */
+    background-color: #348be8;
+    /* Default background color for the accordion header */
+}
+
+/* On hover, change the accordion color */
+.accordion-button:hover {
+    color: white;
+    /* Text color for the accordion header */
+    background-color: #052f5c;
+    /* Hover background color */
+    opacity: 0.9;
+    /* Slightly lower opacity on hover */
+}
+
+/* Container for the accordion - Add this new class to your CSS */
+.accordion-container {
+    background-color: #f2f2f2;
+    padding: 3rem;
+}
+
+/* Style for the accordion item */
+.accordion-item {
+    margin-bottom: 2rem;
+    /* Spacing between accordion items */
+    width: 80%;
+    /* Width of the accordion items */
+    margin-left: auto;
+    /* Automatically determines the left margin */
+    margin-right: auto;
+    /* Automatically determines the right margin */
+    border-radius: 20px;
+}
+
+/* Additional style to maintain the highlight when an accordion item is active */
+.accordion-item .accordion-button:not(.collapsed),
+.accordion-item .accordion-button:not(.collapsed)::after {
+    color: white;
+    /* Text color for the accordion header */
+    background-color: #052f5c;
+    /* Background color for the active accordion item */
+    box-shadow: none;
+    /* Removes the box-shadow when active if present */
+}
+
+/* Style for the accordion body to maintain a consistent look */
+.accordion-body {
+    background-color: white;
+    /* Background color for the content of the accordion item */
+    color: black;
+    /* Text color for the content */
+}
+
+.shelter-address {
+    margin-top: 10px; /* Adjust as needed */
+    padding: 10px;
+    border-left: 3px solid #007bff; /* Thematic left border */
+    font-style: normal; /* Addresses are italic by default */
+  }
+  

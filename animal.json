@@ -1,0 +1,190 @@
+{
+    "cats": [
+        {
+            "id": 1,
+            "name": "Whiskers",
+            "image_url": "db_cat_1.png",
+            "gender": "Female",
+            "age": 2,
+            "type": "Cat",
+            "description": "Whiskers is a playful and curious cat who loves to explore her surroundings."
+        },
+        {
+            "id": 2,
+            "name": "Alley",
+            "image_url": "db_cat_2.png",
+            "gender": "Male",
+            "age": 3,
+            "type": "Cat",
+            "description": "Alley enjoys interactive play and will keep you entertained for hours."
+        },
+        {
+            "id": 3,
+            "name": "Mittens",
+            "image_url": "db_cat_3.png",
+            "gender": "Female",
+            "age": 1,
+            "type": "Cat",
+            "description": "Mittens is a sweet kitten who loves to cuddle and purr."
+        },
+        {
+            "id": 4,
+            "name": "Shadow",
+            "image_url": "db_cat_4.png",
+            "gender": "Male",
+            "age": 4,
+            "type": "Cat",
+            "description": "Shadow has a serene presence and prefers a calm environment."
+        },
+        {
+            "id": 5,
+            "name": "Paws",
+            "image_url": "db_cat_5.png",
+            "gender": "Female",
+            "age": 3,
+            "type": "Cat",
+            "description": "Paws is an independent cat who also appreciates affection on her terms."
+        }
+    ],
+    "dogs": [
+        {
+            "id": 6,
+            "name": "Buddy",
+            "image_url": "db_dog_1.jpg",
+            "gender": "Male",
+            "age": 5,
+            "type": "Dog",
+            "description": "Buddy is a loyal companion with a gentle temperament, perfect for families."
+        },
+        {
+            "id": 7,
+            "name": "Rocky",
+            "image_url": "db_dog_2.png",
+            "gender": "Male",
+            "age": 2,
+            "type": "Dog",
+            "description": "Rocky is full of energy and loves long walks and playtime in the park."
+        },
+        {
+            "id": 8,
+            "name": "Jack",
+            "image_url": "db_dog_3.png",
+            "gender": "Male",
+            "age": 3,
+            "type": "Dog",
+            "description": "Jack is a clever dog who enjoys puzzles and learning new tricks."
+        },
+        {
+            "id": 9,
+            "name": "Max",
+            "image_url": "db_dog_4.png",
+            "gender": "Male",
+            "age": 4,
+            "type": "Dog",
+            "description": "Max is a friendly tail-wagger who’s great with kids and other pets."
+        },
+        {
+            "id": 10,
+            "name": "Bear",
+            "image_url": "db_dog_5.png",
+            "gender": "Male",
+            "age": 6,
+            "type": "Dog",
+            "description": "Bear is a gentle giant, loves his toys, and is a loyal friend."
+        }
+    ],
+    "hamsters": [
+        {
+            "id": 11,
+            "name": "Nibbles",
+            "image_url": "db_hamster_1.png",
+            "gender": "Female",
+            "age": 1,
+            "type": "Hamster",
+            "description": "Nibbles may be tiny, but she has a huge heart and loves to run in her wheel."
+        },
+        {
+            "id": 12,
+            "name": "Tiny",
+            "image_url": "db_hamster_2.png",
+            "gender": "Male",
+            "age": 1,
+            "type": "Hamster",
+            "description": "Tiny is a curious little guy who enjoys burrowing and exploring."
+        },
+        {
+            "id": 13,
+            "name": "Squeak",
+            "image_url": "db_hamster_3.png",
+            "gender": "Female",
+            "age": 1,
+            "type": "Hamster",
+            "description": "Squeak loves to nibble on treats and snuggle into soft bedding."
+        },
+        {
+            "id": 14,
+            "name": "Pumpkin",
+            "image_url": "db_hamster_4.png",
+            "gender": "Female",
+            "age": 1,
+            "type": "Hamster",
+            "description": "Pumpkin is an adorable hamster who enjoys the quiet life and gentle pets."
+        },
+        {
+            "id": 15,
+            "name": "Fuzzy",
+            "image_url": "db_hamster_5.png",
+            "gender": "Male",
+            "age": 1,
+            "type": "Hamster",
+            "description": "Fuzzy is a ball of energy and loves making tunnels in his enclosure."
+        }
+    ],
+    "rabbits": [
+        {
+            "id": 16,
+            "name": "Thumper",
+            "image_url": "db_rabbit_1.png",
+            "gender": "Male",
+            "age": 2,
+            "type": "Rabbit",
+            "description": "Thumper is a bouncy bunny with a love for fresh veggies and hoppy adventures."
+        },
+        {
+            "id": 17,
+            "name": "BunBun",
+            "image_url": "db_rabbit_2.png",
+            "gender": "Female",
+            "age": 3,
+            "type": "Rabbit",
+            "description": "BunBun has a gentle soul, loves cuddles, and will melt your heart with her soft fur."
+        },
+        {
+            "id": 18,
+            "name": "Coco",
+            "image_url": "db_rabbit_3.png",
+            "gender": "Female",
+            "age": 4,
+            "type": "Rabbit",
+            "description": "Coco is a clever rabbit who knows her way around a puzzle feeder."
+        },
+        {
+            "id": 19,
+            "name": "Peanut",
+            "image_url": "db_rabbit_4.png",
+            "gender": "Male",
+            "age": 2,
+            "type": "Rabbit",
+            "description": "Peanut is a little shy at first, but he warms up quickly, especially if you have a treat."
+        },
+        {
+            "id": 20,
+            "name": "Snowball",
+            "image_url": "db_rabbit_5.png",
+            "gender": "Female",
+            "age": 1,
+            "type": "Rabbit",
+            "description": "Snowball is the life of the party and loves playing in the field."
+        }
+    ]
+}

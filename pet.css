@@ -1,0 +1,55 @@
+/* pet.css */
+.animal-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.animal-image {
+    flex: 1;
+    padding-right: 5%;
+}
+
+.animal-image img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.animal-info {
+    flex: 1;
+    padding-left: 5%;
+}
+
+@media (max-width: 768px) {
+    .animal-details-container {
+        flex-direction: column;
+    }
+
+    .animal-image,
+    .animal-info {
+        padding: 0;
+        flex: none;
+        max-width: 100%;
+    }
+
+    .animal-image img {
+        max-width: 100%;
+    }
+}
+
+.animal-description {
+    font-style: italic;
+    color: #555;
+    /* additional styling as needed */
+}
+
+/* If you need to target the buttons directly for more specific styling, you can do it like this: */
+.button-container .btn {
+    /* Your specific button styles here */
+    margin-right: 10px;
+    /* For example, to add right margin to the first button if gap doesn't work */
+}

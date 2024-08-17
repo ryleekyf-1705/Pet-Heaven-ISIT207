@@ -1,0 +1,45 @@
+.background-image-section {
+  background-image: url('../../public/img/dog-background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* Assuming you want white text */
+}
+
+/* Additional styles for the text if needed */
+.background-image-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.background-image-section p {
+  font-size: 1.8rem;
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+  .background-image-section h1 {
+    font-size: 2rem; /* smaller font size for h1 */
+  }
+
+  .background-image-section p {
+    font-size: 1rem; /* smaller font size for p */
+  }
+}
+
+/* Even smaller screens */
+@media (max-width: 480px) {
+  .background-image-section h1 {
+    font-size: 1.5rem; /* even smaller font size for h1 */
+  }
+
+  .background-image-section p {
+    font-size: 0.8rem; /* even smaller font size for p */
+  }
+}
